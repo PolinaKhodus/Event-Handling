@@ -1,4 +1,4 @@
-# ahj-code-DOM-
+# ahj-code-DOM-  [![Build status](https://ci.appveyor.com/api/projects/status/9nepr77iv2t79yyk?svg=true)](https://ci.appveyor.com/project/PolinaKhodus/event-handling)
 
 Игра с гоблинами
 
