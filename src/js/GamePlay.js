@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 /* eslint-disable eqeqeq */
 /* eslint-disable linebreak-style */
 /* eslint-disable no-plusplus */
@@ -10,7 +9,7 @@ import Sprite from './Sprite';
 
 export default class GamePlay {
   constructor() {
-    this.size = 4;
+    this.size = 4; // кол-во ячеек в массиве
     this.modalEl = document.getElementById('modal');
     this.countDead = null;
     this.countLost = null;
@@ -79,7 +78,7 @@ export default class GamePlay {
 
   checkWinner() {
     if (this.countDead.textContent == 5) {
-      this.showWinner('Победа!');
+      this.showWinner('🍾 Победа! 🍾');
     }
 
     if (this.countLost.textContent > 5) {
